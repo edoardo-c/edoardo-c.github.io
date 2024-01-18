@@ -52,3 +52,20 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Front Matter Defaults
+defaults:
+  -
+    scope:
+      type: posts
+      path: _posts
+    values:
+      isPost: true
+      layout: post
+  -
+    scope:
+      type: pages
+      path: _pages
+    values:
+      isPost: false
+      layout: default
