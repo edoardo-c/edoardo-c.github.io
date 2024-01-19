@@ -1,0 +1,19 @@
+---
+John Doe:
+  photo: john-doe.JPG
+  bio: John is a... Well, we don't actually know what he does. Actually, we're not even sure we know who he is.
+  socials:
+    - type: Twitter
+      url: https://twitter.com/realJohnDoe
+    - type: GitHub
+      url: https://github.com/JohnDoe
+
+Jane Doe:
+  #photo: ![Jane Doe](/assets/images/authors/jane-doe.JPG)
+  photo: jane-doe.JPG
+  bio: Jane enjoys long walks on the beach and remaining anonymous on the internet, like 100% of the human population.
+  socials:
+    - type: Twitter
+      url: https://twitter.com/datJaneDoeDoe
+    - type: GitHub
+      url: https://github.com/JaneDoe

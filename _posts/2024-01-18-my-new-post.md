@@ -8,9 +8,23 @@ keywords: [jekyll and github pages, getting started with jekyll]
 date:   2024-01-18 17:30:00 +0100
 tags: [tech, webiste, jekyll]
 ---
-{{ page.date }}
+
+#Creation Date: {{ page.date }}
+#
+## This is a new post
+#
+#{{ site.layout.blog }}
+#
+#Still very little to say.
 
 
-# This is a new post
-
-Still very little to say.
+#Tags description:
+#
+#{% for tag in site.tags %}
+#<a
+#    class="tag"
+#    href="/tag/{{ tag }}"
+#    title="{{ site.data.tagDescriptions[tag] }}">
+#    {{ tag }}
+#</a>
+#{% endfor %}
