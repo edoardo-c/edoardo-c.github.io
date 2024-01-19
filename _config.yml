@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
+title: Site under construction ;)
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Nothing to see here, it's way too early for that.
@@ -32,6 +32,10 @@ github_username:  jekyll
 theme: null
 plugins:
   - jekyll-feed
+
+# Include for processing.
+include: [_pages]
+  # - _pages
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -62,6 +66,7 @@ defaults:
     values:
       isPost: true
       layout: post
+      permalink: /blog/:categories/:title/
   -
     scope:
       type: pages
@@ -69,3 +74,6 @@ defaults:
     values:
       isPost: false
       layout: default
+
+sass:
+  style: comprressed
